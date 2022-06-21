@@ -1,0 +1,22 @@
+[
+ {
+  "provider": "BBC",
+  "category": "UK",
+  "url": "http://feeds.bbci.co.uk/news/uk/rss.xml"
+ },
+ {
+  "provider": "BBC",
+  "category": "Technology",
+  "url": "http://feeds.bbci.co.uk/news/technology/rss.xml"
+ },
+ {
+  "provider": "Sky News",
+  "category": "UK",
+  "url": "https://feeds.skynews.com/feeds/rss/uk.xml"
+ },
+ {
+  "provider": "Sky News",
+  "category": "Technology",
+  "url": "https://feeds.skynews.com/feeds/rss/technology.xml"
+ }
+]
