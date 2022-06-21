@@ -8,6 +8,7 @@ import (
 	"test.com/feedstore/internal/store"
 )
 
+// searchFeeds is the transport layer handler for search feed requests.
 func (h *handler) searchFeeds(w http.ResponseWriter, r *http.Request) {
 	var filter store.FeedFilter
 	err := json.NewDecoder(r.Body).Decode(&filter)

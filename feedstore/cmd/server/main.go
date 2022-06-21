@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	fmt.Println("starting feedstore api on port 8090")
+	fmt.Println("starting feed store api on port 8090")
 
 	store, err := store.New()
 	if err != nil {
